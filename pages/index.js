@@ -13,6 +13,8 @@ import rightArrow from "../public/arrow-right.svg";
 import lineUp from "../public/line_top.svg";
 import lineMiddle from "../public/circlestLine.svg";
 import lineDown from "../public/line_bottom.svg";
+import ondcFastor from "../public/ondc_fastor_img.png";
+import worksImg from "../public/ondcProductImg2.png";
 
 import Reviews from '../components/Reviews';
 import Footer from '../components/Footer';
@@ -164,7 +166,7 @@ export default function Home(){
         <div className='ondc_circle_inner_box'>
           <Image
           className="ondc_fastor"
-          src="/../public/ondc_fastor_img.png"
+          src={ondcFastor}
           width="33"
           height="68"
           alt="ondc_fastor"
@@ -216,7 +218,7 @@ export default function Home(){
     <section className="ondc_data_container works_inner_container">
       <div className="works_data_left">
       <Image
-          src={"/../public/ondcProductImg2.png"}
+          src={worksImg}
          width="508"
          height="500"
          alt=""
