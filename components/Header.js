@@ -8,7 +8,7 @@ import heroImg from "../public/Image.png";
 import Menu from "../public/hamburgerMenu.svg";
 import Close from "../public/hamburgerClose.svg";
 import ChevronUp from "../public/chevronUp.svg";
-import ChevronDown from "../public/chevronDown.svg";
+import ChevronDown from "../public/ChevronDown.svg";
 import { useState } from "react";
 
 
